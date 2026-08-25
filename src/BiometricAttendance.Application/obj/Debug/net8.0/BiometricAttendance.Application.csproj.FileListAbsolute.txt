@@ -1,0 +1,15 @@
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Application\obj\Debug\net8.0\BiometricAttendance.Application.csproj.AssemblyReference.cache
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Application\obj\Debug\net8.0\BiometricAttendance.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Application\obj\Debug\net8.0\BiometricAttendance.Application.AssemblyInfoInputs.cache
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Application\obj\Debug\net8.0\BiometricAttendance.Application.AssemblyInfo.cs
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Application\obj\Debug\net8.0\BiometricAttendance.Application.csproj.CoreCompileInputs.cache
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Application\bin\Debug\net8.0\BiometricAttendance.Application.deps.json
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Application\bin\Debug\net8.0\BiometricAttendance.Application.dll
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Application\bin\Debug\net8.0\BiometricAttendance.Application.pdb
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Application\bin\Debug\net8.0\BiometricAttendance.Core.dll
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Application\bin\Debug\net8.0\BiometricAttendance.Core.pdb
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Application\obj\Debug\net8.0\Biometri.F6B03521.Up2Date
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Application\obj\Debug\net8.0\BiometricAttendance.Application.dll
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Application\obj\Debug\net8.0\refint\BiometricAttendance.Application.dll
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Application\obj\Debug\net8.0\BiometricAttendance.Application.pdb
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Application\obj\Debug\net8.0\ref\BiometricAttendance.Application.dll

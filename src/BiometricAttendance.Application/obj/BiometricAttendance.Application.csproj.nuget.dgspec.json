@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.Application\\BiometricAttendance.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.Application\\BiometricAttendance.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.Application\\BiometricAttendance.Application.csproj",
+        "projectName": "BiometricAttendance.Application",
+        "projectPath": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.Application\\BiometricAttendance.Application.csproj",
+        "packagesPath": "C:\\Users\\PCSMO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PCSMO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.Core\\BiometricAttendance.Core.csproj": {
+                "projectPath": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.Core\\BiometricAttendance.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\PCSMO\\AppData\\Local\\Microsoft\\dotnet\\sdk\\8.0.424/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.Core\\BiometricAttendance.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.Core\\BiometricAttendance.Core.csproj",
+        "projectName": "BiometricAttendance.Core",
+        "projectPath": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.Core\\BiometricAttendance.Core.csproj",
+        "packagesPath": "C:\\Users\\PCSMO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PCSMO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\PCSMO\\AppData\\Local\\Microsoft\\dotnet\\sdk\\8.0.424/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

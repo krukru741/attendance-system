@@ -1,0 +1,53 @@
+<UserControl x:Class="BiometricAttendance.App.Views.TopBarView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Margin="20,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Left: Date & Time -->
+        <StackPanel Grid.Column="0" VerticalAlignment="Center">
+            <TextBlock Text="{Binding CurrentTime}"
+                       FontSize="{StaticResource FontSizeXl}"
+                       FontWeight="SemiBold"
+                       Foreground="{StaticResource TextBrush}"/>
+            <TextBlock Text="{Binding CurrentDate}"
+                       Style="{StaticResource TextMuted}"/>
+        </StackPanel>
+
+        <!-- Right: User + Logout -->
+        <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
+            <Border Background="{StaticResource BackgroundBrush}"
+                    CornerRadius="20"
+                    Padding="14,6"
+                    Margin="0,0,12,0">
+                <StackPanel Orientation="Horizontal">
+                    <Border Width="28" Height="28"
+                            Background="{StaticResource PrimaryBrush}"
+                            CornerRadius="14"
+                            Margin="0,0,8,0">
+                        <TextBlock Text="{Binding DisplayName, Converter={StaticResource InitialsConverter}}"
+                                   Foreground="White"
+                                   FontSize="11"
+                                   FontWeight="SemiBold"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                    </Border>
+                    <TextBlock Text="{Binding DisplayName}"
+                               FontWeight="Medium"
+                               VerticalAlignment="Center"
+                               Foreground="{StaticResource TextBrush}"/>
+                </StackPanel>
+            </Border>
+
+            <Button Style="{StaticResource ButtonOutline}"
+                    Command="{Binding LogoutCommand}"
+                    Padding="14,0"
+                    Height="36"
+                    Content="Sign Out"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

@@ -1,0 +1,147 @@
+<UserControl x:Class="BiometricAttendance.App.Views.DashboardView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVisibility"/>
+    </UserControl.Resources>
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="{StaticResource PaddingPage}">
+
+            <!-- Page Header -->
+            <StackPanel Margin="0,0,0,24">
+                <TextBlock Style="{StaticResource TextH2}">
+                    <Run Text="{Binding GreetingText}"/><Run Text=" 👋"/>
+                </TextBlock>
+                <TextBlock Text="Here's what's happening with attendance today."
+                           Style="{StaticResource TextMuted}"
+                           Margin="0,4,0,0"/>
+            </StackPanel>
+
+            <!-- KPI Cards -->
+            <TextBlock Text="TODAY'S OVERVIEW"
+                       Style="{StaticResource TextCaption}"
+                       Margin="0,0,0,12"/>
+
+            <UniformGrid Rows="2" Columns="3" HorizontalAlignment="Stretch">
+                <!-- Total Employees -->
+                <Border Margin="0,0,12,12" Background="{StaticResource SurfaceBrush}"
+                        CornerRadius="{StaticResource RadiusMd}" Padding="20">
+                    <Border.Effect>
+                        <DropShadowEffect BlurRadius="12" ShadowDepth="2" Opacity="0.06" Direction="270"/>
+                    </Border.Effect>
+                    <StackPanel>
+                        <TextBlock Text="Total Employees" Style="{StaticResource TextMuted}"/>
+                        <TextBlock Text="{Binding TotalEmployees}"
+                                   Style="{StaticResource TextH1}"
+                                   Margin="0,8,0,0"
+                                   Foreground="{StaticResource PrimaryBrush}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Present -->
+                <Border Margin="0,0,12,12" Background="{StaticResource SurfaceBrush}"
+                        CornerRadius="{StaticResource RadiusMd}" Padding="20">
+                    <Border.Effect>
+                        <DropShadowEffect BlurRadius="12" ShadowDepth="2" Opacity="0.06" Direction="270"/>
+                    </Border.Effect>
+                    <StackPanel>
+                        <TextBlock Text="Present" Style="{StaticResource TextMuted}"/>
+                        <TextBlock Text="{Binding PresentToday}"
+                                   Style="{StaticResource TextH1}"
+                                   Margin="0,8,0,0"
+                                   Foreground="{StaticResource SuccessBrush}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Absent -->
+                <Border Margin="0,0,0,12" Background="{StaticResource SurfaceBrush}"
+                        CornerRadius="{StaticResource RadiusMd}" Padding="20">
+                    <Border.Effect>
+                        <DropShadowEffect BlurRadius="12" ShadowDepth="2" Opacity="0.06" Direction="270"/>
+                    </Border.Effect>
+                    <StackPanel>
+                        <TextBlock Text="Absent" Style="{StaticResource TextMuted}"/>
+                        <TextBlock Text="{Binding AbsentToday}"
+                                   Style="{StaticResource TextH1}"
+                                   Margin="0,8,0,0"
+                                   Foreground="{StaticResource DangerBrush}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Late -->
+                <Border Margin="0,0,12,12" Background="{StaticResource SurfaceBrush}"
+                        CornerRadius="{StaticResource RadiusMd}" Padding="20">
+                    <Border.Effect>
+                        <DropShadowEffect BlurRadius="12" ShadowDepth="2" Opacity="0.06" Direction="270"/>
+                    </Border.Effect>
+                    <StackPanel>
+                        <TextBlock Text="Late" Style="{StaticResource TextMuted}"/>
+                        <TextBlock Text="{Binding LateToday}"
+                                   Style="{StaticResource TextH1}"
+                                   Margin="0,8,0,0"
+                                   Foreground="{StaticResource WarningBrush}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- On Leave -->
+                <Border Margin="0,0,12,12" Background="{StaticResource SurfaceBrush}"
+                        CornerRadius="{StaticResource RadiusMd}" Padding="20">
+                    <Border.Effect>
+                        <DropShadowEffect BlurRadius="12" ShadowDepth="2" Opacity="0.06" Direction="270"/>
+                    </Border.Effect>
+                    <StackPanel>
+                        <TextBlock Text="On Leave" Style="{StaticResource TextMuted}"/>
+                        <TextBlock Text="{Binding OnLeaveToday}"
+                                   Style="{StaticResource TextH1}"
+                                   Margin="0,8,0,0"
+                                   Foreground="{StaticResource InfoBrush}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Overtime -->
+                <Border Margin="0,0,0,12" Background="{StaticResource SurfaceBrush}"
+                        CornerRadius="{StaticResource RadiusMd}" Padding="20">
+                    <Border.Effect>
+                        <DropShadowEffect BlurRadius="12" ShadowDepth="2" Opacity="0.06" Direction="270"/>
+                    </Border.Effect>
+                    <StackPanel>
+                        <TextBlock Text="Overtime" Style="{StaticResource TextMuted}"/>
+                        <TextBlock Text="{Binding OvertimeToday}"
+                                   Style="{StaticResource TextH1}"
+                                   Margin="0,8,0,0"
+                                   Foreground="{StaticResource AccentDarkBrush}"/>
+                    </StackPanel>
+                </Border>
+            </UniformGrid>
+
+            <!-- Quick Actions -->
+            <TextBlock Text="QUICK ACTIONS"
+                       Style="{StaticResource TextCaption}"
+                       Margin="0,24,0,12"/>
+
+            <StackPanel Orientation="Horizontal">
+                <Button Style="{StaticResource ButtonPrimary}"
+                        Content="+ Add Employee"
+                        Margin="0,0,8,0"
+                        Padding="16,0"
+                        Visibility="{Binding CanAddEmployee, Converter={StaticResource BoolToVisibility}}"/>
+                <Button Style="{StaticResource ButtonOutline}"
+                        Content="Enroll Biometric"
+                        Margin="0,0,8,0"
+                        Padding="16,0"
+                        Visibility="{Binding CanEnrollBio, Converter={StaticResource BoolToVisibility}}"/>
+                <Button Style="{StaticResource ButtonOutline}"
+                        Content="View Attendance"
+                        Margin="0,0,8,0"
+                        Padding="16,0"
+                        Visibility="{Binding CanViewAttendance, Converter={StaticResource BoolToVisibility}}"/>
+                <Button Style="{StaticResource ButtonOutline}"
+                        Content="Review Requests"
+                        Padding="16,0"
+                        Visibility="{Binding CanReviewLeave, Converter={StaticResource BoolToVisibility}}"/>
+            </StackPanel>
+
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

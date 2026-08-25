@@ -1,0 +1,44 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- =====================================================
+         Spacing & Dimension Tokens
+         ===================================================== -->
+
+    <!-- Spacing -->
+    <sys:Double x:Key="SpaceXs">4</sys:Double>
+    <sys:Double x:Key="SpaceSm">8</sys:Double>
+    <sys:Double x:Key="SpaceMd">12</sys:Double>
+    <sys:Double x:Key="SpaceLg">16</sys:Double>
+    <sys:Double x:Key="SpaceXl">24</sys:Double>
+    <sys:Double x:Key="Space2xl">32</sys:Double>
+    <sys:Double x:Key="Space3xl">48</sys:Double>
+
+    <!-- Thickness helpers -->
+    <Thickness x:Key="PaddingSm">8</Thickness>
+    <Thickness x:Key="PaddingMd">12</Thickness>
+    <Thickness x:Key="PaddingLg">16</Thickness>
+    <Thickness x:Key="PaddingXl">24</Thickness>
+    <Thickness x:Key="PaddingCard">20</Thickness>
+    <Thickness x:Key="PaddingPage">24,20,24,20</Thickness>
+
+    <!-- Layout -->
+    <sys:Double x:Key="SidebarWidth">240</sys:Double>
+    <sys:Double x:Key="TopBarHeight">56</sys:Double>
+    <sys:Double x:Key="CardCornerRadius">8</sys:Double>
+    <CornerRadius x:Key="RadiusSm">4</CornerRadius>
+    <CornerRadius x:Key="RadiusMd">8</CornerRadius>
+    <CornerRadius x:Key="RadiusLg">12</CornerRadius>
+
+    <!-- Component sizes -->
+    <sys:Double x:Key="ButtonHeight">38</sys:Double>
+    <sys:Double x:Key="InputHeight">38</sys:Double>
+    <sys:Double x:Key="StatCardMinWidth">160</sys:Double>
+    <sys:Double x:Key="StatCardMinHeight">100</sys:Double>
+
+    <!-- Borders -->
+    <sys:Double x:Key="BorderThicknessValue">1</sys:Double>
+    <Thickness x:Key="BorderThickness">1</Thickness>
+
+</ResourceDictionary>
