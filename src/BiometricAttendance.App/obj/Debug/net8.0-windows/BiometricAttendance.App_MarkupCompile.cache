@@ -16,5 +16,5 @@ C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.App\App.xaml
 245-862345366
 MainWindow.xaml;Resources\Brushes.xaml;Resources\Colors.xaml;Resources\Dimensions.xaml;Resources\Typography.xaml;Styles\ControlStyles.xaml;Views\DashboardView.xaml;Views\LoginView.xaml;Views\MainShellView.xaml;Views\SidebarView.xaml;Views\TopBarView.xaml;
 
-True
+False
 
