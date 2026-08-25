@@ -6,8 +6,8 @@ C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Core\obj\Debug\
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Core\obj\Debug\net8.0\BiometricAttendance.Core.AssemblyInfoInputs.cache
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Core\obj\Debug\net8.0\BiometricAttendance.Core.AssemblyInfo.cs
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Core\obj\Debug\net8.0\BiometricAttendance.Core.csproj.CoreCompileInputs.cache
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Core\obj\Debug\net8.0\BiometricAttendance.Core.sourcelink.json
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Core\obj\Debug\net8.0\BiometricAttendance.Core.dll
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Core\obj\Debug\net8.0\refint\BiometricAttendance.Core.dll
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Core\obj\Debug\net8.0\BiometricAttendance.Core.pdb
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Core\obj\Debug\net8.0\ref\BiometricAttendance.Core.dll
-C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Core\obj\Debug\net8.0\BiometricAttendance.Core.sourcelink.json
