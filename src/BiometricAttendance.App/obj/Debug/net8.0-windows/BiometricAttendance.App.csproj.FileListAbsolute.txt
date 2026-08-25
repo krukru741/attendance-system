@@ -109,3 +109,4 @@ C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.App\bin\Debug\n
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.App\bin\Debug\net8.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.App\bin\Debug\net8.0-windows\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.App\bin\Debug\net8.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.App\obj\Debug\net8.0-windows\BiometricAttendance.App.sourcelink.json

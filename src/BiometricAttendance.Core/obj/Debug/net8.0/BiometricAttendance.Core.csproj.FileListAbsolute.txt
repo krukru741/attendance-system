@@ -10,3 +10,4 @@ C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Core\obj\Debug\
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Core\obj\Debug\net8.0\refint\BiometricAttendance.Core.dll
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Core\obj\Debug\net8.0\BiometricAttendance.Core.pdb
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Core\obj\Debug\net8.0\ref\BiometricAttendance.Core.dll
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Core\obj\Debug\net8.0\BiometricAttendance.Core.sourcelink.json

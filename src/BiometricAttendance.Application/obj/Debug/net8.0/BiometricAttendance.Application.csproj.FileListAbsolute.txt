@@ -13,3 +13,4 @@ C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Application\obj
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Application\obj\Debug\net8.0\refint\BiometricAttendance.Application.dll
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Application\obj\Debug\net8.0\BiometricAttendance.Application.pdb
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Application\obj\Debug\net8.0\ref\BiometricAttendance.Application.dll
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Application\obj\Debug\net8.0\BiometricAttendance.Application.sourcelink.json

@@ -17,3 +17,4 @@ C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Infrastructure\
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Infrastructure\obj\Debug\net8.0\BiometricAttendance.Infrastructure.pdb
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Infrastructure\obj\Debug\net8.0\BiometricAttendance.Infrastructure.genruntimeconfig.cache
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Infrastructure\obj\Debug\net8.0\ref\BiometricAttendance.Infrastructure.dll
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.Infrastructure\obj\Debug\net8.0\BiometricAttendance.Infrastructure.sourcelink.json
