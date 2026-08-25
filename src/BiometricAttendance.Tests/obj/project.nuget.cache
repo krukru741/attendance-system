@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qPollMt02G4=",
+  "dgSpecHash": "3j2mLOKi7xU=",
   "success": true,
   "projectFilePath": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.Tests\\BiometricAttendance.Tests.csproj",
   "expectedPackageFiles": [
@@ -145,10 +145,7 @@
     "C:\\Users\\PCSMO\\.nuget\\packages\\xunit.core\\2.5.3\\xunit.core.2.5.3.nupkg.sha512",
     "C:\\Users\\PCSMO\\.nuget\\packages\\xunit.extensibility.core\\2.5.3\\xunit.extensibility.core.2.5.3.nupkg.sha512",
     "C:\\Users\\PCSMO\\.nuget\\packages\\xunit.extensibility.execution\\2.5.3\\xunit.extensibility.execution.2.5.3.nupkg.sha512",
-    "C:\\Users\\PCSMO\\.nuget\\packages\\xunit.runner.visualstudio\\2.5.3\\xunit.runner.visualstudio.2.5.3.nupkg.sha512",
-    "C:\\Users\\PCSMO\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.30\\microsoft.windowsdesktop.app.ref.8.0.30.nupkg.sha512",
-    "C:\\Users\\PCSMO\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.30\\microsoft.netcore.app.ref.8.0.30.nupkg.sha512",
-    "C:\\Users\\PCSMO\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.30\\microsoft.aspnetcore.app.ref.8.0.30.nupkg.sha512"
+    "C:\\Users\\PCSMO\\.nuget\\packages\\xunit.runner.visualstudio\\2.5.3\\xunit.runner.visualstudio.2.5.3.nupkg.sha512"
   ],
   "logs": []
 }

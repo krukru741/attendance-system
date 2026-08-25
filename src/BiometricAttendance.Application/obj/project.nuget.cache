@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "J0CVmw5hXb4=",
+  "dgSpecHash": "FPavMVcqDfc=",
   "success": true,
   "projectFilePath": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.Application\\BiometricAttendance.Application.csproj",
   "expectedPackageFiles": [
@@ -14,10 +14,7 @@
     "C:\\Users\\PCSMO\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\PCSMO\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
     "C:\\Users\\PCSMO\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
-    "C:\\Users\\PCSMO\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
-    "C:\\Users\\PCSMO\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.30\\microsoft.windowsdesktop.app.ref.8.0.30.nupkg.sha512",
-    "C:\\Users\\PCSMO\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.30\\microsoft.netcore.app.ref.8.0.30.nupkg.sha512",
-    "C:\\Users\\PCSMO\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.30\\microsoft.aspnetcore.app.ref.8.0.30.nupkg.sha512"
+    "C:\\Users\\PCSMO\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }
