@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BiometricAttendance.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b10a2cfccaaf73bdc95ed044d15a8ea2fc9cf1b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c951bfc8644a8c5bdfccd78936f6a2059ce830e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("BiometricAttendance.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BiometricAttendance.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

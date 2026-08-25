@@ -1,12 +1,100 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81F35132-7955-4EDC-AA81-6F18F87E1F92}|BiometricAttendance.App\\BiometricAttendance.App.csproj|c:\\users\\pcsmo\\desktop\\attendance system\\src\\biometricattendance.app\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{81F35132-7955-4EDC-AA81-6F18F87E1F92}|BiometricAttendance.App\\BiometricAttendance.App.csproj|solutionrelative:biometricattendance.app\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F35132-7955-4EDC-AA81-6F18F87E1F92}|BiometricAttendance.App\\BiometricAttendance.App.csproj|c:\\users\\pcsmo\\desktop\\attendance system\\src\\biometricattendance.app\\views\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{81F35132-7955-4EDC-AA81-6F18F87E1F92}|BiometricAttendance.App\\BiometricAttendance.App.csproj|solutionrelative:biometricattendance.app\\views\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F35132-7955-4EDC-AA81-6F18F87E1F92}|BiometricAttendance.App\\BiometricAttendance.App.csproj|c:\\users\\pcsmo\\desktop\\attendance system\\src\\biometricattendance.app\\views\\mainshellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{81F35132-7955-4EDC-AA81-6F18F87E1F92}|BiometricAttendance.App\\BiometricAttendance.App.csproj|solutionrelative:biometricattendance.app\\views\\mainshellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F35132-7955-4EDC-AA81-6F18F87E1F92}|BiometricAttendance.App\\BiometricAttendance.App.csproj|c:\\users\\pcsmo\\desktop\\attendance system\\src\\biometricattendance.app\\views\\sidebarview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{81F35132-7955-4EDC-AA81-6F18F87E1F92}|BiometricAttendance.App\\BiometricAttendance.App.csproj|solutionrelative:biometricattendance.app\\views\\sidebarview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F35132-7955-4EDC-AA81-6F18F87E1F92}|BiometricAttendance.App\\BiometricAttendance.App.csproj|c:\\users\\pcsmo\\desktop\\attendance system\\src\\biometricattendance.app\\views\\topbarview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{81F35132-7955-4EDC-AA81-6F18F87E1F92}|BiometricAttendance.App\\BiometricAttendance.App.csproj|solutionrelative:biometricattendance.app\\views\\topbarview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TopBarView.xaml",
+              "DocumentMoniker": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.App\\Views\\TopBarView.xaml",
+              "RelativeDocumentMoniker": "BiometricAttendance.App\\Views\\TopBarView.xaml",
+              "ToolTip": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.App\\Views\\TopBarView.xaml",
+              "RelativeToolTip": "BiometricAttendance.App\\Views\\TopBarView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-25T08:19:15.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SidebarView.xaml",
+              "DocumentMoniker": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.App\\Views\\SidebarView.xaml",
+              "RelativeDocumentMoniker": "BiometricAttendance.App\\Views\\SidebarView.xaml",
+              "ToolTip": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.App\\Views\\SidebarView.xaml",
+              "RelativeToolTip": "BiometricAttendance.App\\Views\\SidebarView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-25T08:19:08.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainShellView.xaml",
+              "DocumentMoniker": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.App\\Views\\MainShellView.xaml",
+              "RelativeDocumentMoniker": "BiometricAttendance.App\\Views\\MainShellView.xaml",
+              "ToolTip": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.App\\Views\\MainShellView.xaml",
+              "RelativeToolTip": "BiometricAttendance.App\\Views\\MainShellView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-25T08:19:01.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardView.xaml",
+              "DocumentMoniker": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.App\\Views\\DashboardView.xaml",
+              "RelativeDocumentMoniker": "BiometricAttendance.App\\Views\\DashboardView.xaml",
+              "ToolTip": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.App\\Views\\DashboardView.xaml",
+              "RelativeToolTip": "BiometricAttendance.App\\Views\\DashboardView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-25T08:18:27.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.App\\Views\\LoginView.xaml",
+              "RelativeDocumentMoniker": "BiometricAttendance.App\\Views\\LoginView.xaml",
+              "ToolTip": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.App\\Views\\LoginView.xaml",
+              "RelativeToolTip": "BiometricAttendance.App\\Views\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-25T08:18:15.346Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

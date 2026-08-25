@@ -53,7 +53,7 @@ namespace BiometricAttendance.App.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/BiometricAttendance.App;V1.0.0.0;component/views/mainshellview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BiometricAttendance.App;component/views/mainshellview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\MainShellView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
