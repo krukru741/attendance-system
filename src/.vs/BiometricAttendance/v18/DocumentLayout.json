@@ -30,19 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TopBarView.xaml",
-              "DocumentMoniker": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.App\\Views\\TopBarView.xaml",
-              "RelativeDocumentMoniker": "BiometricAttendance.App\\Views\\TopBarView.xaml",
-              "ToolTip": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.App\\Views\\TopBarView.xaml",
-              "RelativeToolTip": "BiometricAttendance.App\\Views\\TopBarView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-08-25T08:19:15.913Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -87,6 +76,17 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-08-25T08:18:15.346Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TopBarView.xaml",
+              "DocumentMoniker": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.App\\Views\\TopBarView.xaml",
+              "RelativeDocumentMoniker": "BiometricAttendance.App\\Views\\TopBarView.xaml",
+              "ToolTip": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.App\\Views\\TopBarView.xaml",
+              "RelativeToolTip": "BiometricAttendance.App\\Views\\TopBarView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-25T08:19:15.913Z"
             }
           ]
         }
