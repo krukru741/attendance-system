@@ -63,8 +63,7 @@ Database / Device
 -   Views should contain UI concerns only.
 -   ViewModels should expose state and commands.
 -   Business rules belong in application/domain services.
--   Database access belongs in Infrastructure.
--   Biometric SDK code belongs behind interfaces/adapters.
+-   Database access belongs in Infrastructure logic (EF Core SQLite context, Repository implementations, Biometric SDK wrappers).
 -   Avoid SQL queries directly inside button click handlers.
 
 ## Example Command Flow

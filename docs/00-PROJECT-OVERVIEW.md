@@ -12,7 +12,7 @@ reports, users, permissions, audit logs, and database administration.
 -   WPF
 -   MVVM
 -   Entity Framework Core
--   SQL Server
+-   SQLite
 -   Biometric SDK/device integration
 -   QuestPDF or RDLC for reports
 -   Excel export
@@ -32,7 +32,7 @@ Domain/Core
   ↓
 Repositories / EF Core
   ↓
-SQL Server
+SQLite
 
 Biometric Device
   ↓

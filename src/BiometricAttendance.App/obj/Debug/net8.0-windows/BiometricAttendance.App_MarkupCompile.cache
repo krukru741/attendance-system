@@ -8,13 +8,13 @@ C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.App\obj\Debug\n
 BiometricAttendance.App
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.App\App.xaml
 11216493715
 
 191393910655
-245-422933984
+245-1859007806
 MainWindow.xaml;Resources\Brushes.xaml;Resources\Colors.xaml;Resources\Dimensions.xaml;Resources\Typography.xaml;Styles\ControlStyles.xaml;Views\DashboardView.xaml;Views\LoginView.xaml;Views\MainShellView.xaml;Views\SidebarView.xaml;Views\TopBarView.xaml;
 
-False
+True
 

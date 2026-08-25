@@ -6,7 +6,7 @@
 -   Configure MVVM
 -   Configure dependency injection
 -   Configure EF Core
--   Configure SQL Server
+-   Configure SQLite
 -   Create AppShell
 -   Create theme
 -   Create login
