@@ -24,8 +24,8 @@
     <Thickness x:Key="PaddingPage">24,20,24,20</Thickness>
 
     <!-- Layout -->
-    <sys:Double x:Key="SidebarWidth">240</sys:Double>
-    <sys:Double x:Key="TopBarHeight">56</sys:Double>
+    <GridLength x:Key="SidebarWidth">240</GridLength>
+    <GridLength x:Key="TopBarHeight">56</GridLength>
     <sys:Double x:Key="CardCornerRadius">8</sys:Double>
     <CornerRadius x:Key="RadiusSm">4</CornerRadius>
     <CornerRadius x:Key="RadiusMd">8</CornerRadius>

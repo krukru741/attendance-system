@@ -11,7 +11,7 @@
             <!-- Page Header -->
             <StackPanel Margin="0,0,0,24">
                 <TextBlock Style="{StaticResource TextH2}">
-                    <Run Text="{Binding GreetingText}"/><Run Text=" 👋"/>
+                    <Run Text="{Binding GreetingText, Mode=OneWay}"/><Run Text=" 👋"/>
                 </TextBlock>
                 <TextBlock Text="Here's what's happening with attendance today."
                            Style="{StaticResource TextMuted}"

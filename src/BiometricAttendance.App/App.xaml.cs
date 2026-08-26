@@ -113,6 +113,8 @@ public partial class App : System.Windows.Application
 
     private void ShowLoginWindow()
     {
+        Current.ShutdownMode = ShutdownMode.OnExplicitShutdown;
+
         using var scope = _host!.Services.CreateScope();
         var loginWindow = scope.ServiceProvider.GetRequiredService<LoginView>();
 
@@ -132,6 +134,10 @@ public partial class App : System.Windows.Application
     {
         using var scope = _host!.Services.CreateScope();
         var shellWindow = scope.ServiceProvider.GetRequiredService<MainShellView>();
+        
+        Current.MainWindow = shellWindow;
+        Current.ShutdownMode = ShutdownMode.OnMainWindowClose;
+
         var shellVm = (MainShellViewModel)shellWindow.DataContext;
 
         shellVm.LogoutRequested += () =>
