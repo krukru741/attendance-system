@@ -33,6 +33,7 @@ public sealed class InitialDataSeeder
         await SeedRolePermissionsAsync(ct);
         await SeedAdminUserAsync(ct);
         await SeedDefaultSettingsAsync(ct);
+        await SeedShiftTemplatesAsync(ct);
     }
 
     // ──────────────────────────────────────────────────
@@ -218,5 +219,22 @@ public sealed class InitialDataSeeder
             }
         }
         await _db.SaveChangesAsync(ct);
+    }
+
+    private async Task SeedShiftTemplatesAsync(CancellationToken ct)
+    {
+        if (!await _db.ShiftTemplates.AnyAsync(s => s.Name == "Regular Shift", ct))
+        {
+            _db.ShiftTemplates.Add(new ShiftTemplate
+            {
+                Name = "Regular Shift",
+                StartTime = new TimeOnly(8, 0),
+                EndTime = new TimeOnly(17, 0),
+                IsOvernight = false,
+                GracePeriodMinutes = 10,
+                IsActive = true
+            });
+            await _db.SaveChangesAsync(ct);
+        }
     }
 }
