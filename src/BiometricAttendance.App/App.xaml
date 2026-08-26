@@ -23,10 +23,21 @@
             <conv:BoolToEyeIconConverter     x:Key="BoolToEyeIcon"/>
             <conv:InitialsConverter          x:Key="InitialsConverter"/>
             <conv:AttendanceStatusToBrushConverter x:Key="AttendanceStatusToBrush"/>
+            <conv:EqualityToVisibilityConverter x:Key="EqualityToVisibilityConverter"/>
+            <conv:InequalityToVisibilityConverter x:Key="InequalityToVisibilityConverter"/>
+            <conv:EqualityToFontWeightConverter x:Key="EqualityToFontWeightConverter"/>
+            <conv:DateOnlyToDateTimeConverter x:Key="DateOnlyToDateTimeConverter"/>
+            <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
 
             <!-- ── DataTemplates (ViewModel → View) ─────────── -->
             <DataTemplate DataType="{x:Type vm:DashboardViewModel}">
                 <views:DashboardView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:WorkforceViewModel}">
+                <views:WorkforceView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:EmployeeProfileViewModel}">
+                <views:EmployeeProfileView/>
             </DataTemplate>
 
         </ResourceDictionary>

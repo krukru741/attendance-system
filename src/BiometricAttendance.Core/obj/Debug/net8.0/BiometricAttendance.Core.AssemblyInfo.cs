@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BiometricAttendance.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7494619530877489bb53a519b8bd3a880568390c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9cad44789c04c55dd2e807216432bb0b9d2ba13c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BiometricAttendance.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BiometricAttendance.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

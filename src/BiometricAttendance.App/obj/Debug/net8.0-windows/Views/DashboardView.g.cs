@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using BiometricAttendance.App.ViewModels;
 using System;
 using System.Diagnostics;
 using System.Windows;

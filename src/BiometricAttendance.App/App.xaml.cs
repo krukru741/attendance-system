@@ -87,6 +87,8 @@ public partial class App : System.Windows.Application
         // Infrastructure
         services.AddScoped<BiometricAttendance.Core.Interfaces.IDbContextFactory, AttendanceDbContextFactory>();
         services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IReferenceRepository, ReferenceRepository>();
+        services.AddScoped<IEmployeeRepository, EmployeeRepository>();
         services.AddScoped<IPasswordHasher, BcryptPasswordHasher>();
         services.AddScoped<InitialDataSeeder>();
 
@@ -94,6 +96,7 @@ public partial class App : System.Windows.Application
         services.AddScoped<IAuthService, AuthService>();
         services.AddScoped<IPermissionService, PermissionService>();
         services.AddScoped<IAuditService, AuditService>();
+        services.AddScoped<IEmployeeService, EmployeeService>();
 
         // App services (singletons)
         services.AddSingleton<ICurrentUserService, CurrentUserService>();
@@ -105,10 +108,16 @@ public partial class App : System.Windows.Application
         services.AddTransient<SidebarViewModel>();
         services.AddTransient<TopBarViewModel>();
         services.AddTransient<DashboardViewModel>();
+        services.AddTransient<WorkforceViewModel>();
+        services.AddTransient<AddEmployeeViewModel>();
+        services.AddTransient<EmployeeProfileViewModel>();
 
         // Views (transient — Windows created and closed)
         services.AddTransient<LoginView>();
         services.AddTransient<MainShellView>();
+        services.AddTransient<WorkforceView>();
+        services.AddTransient<AddEmployeeView>();
+        services.AddTransient<EmployeeProfileView>();
     }
 
     private void ShowLoginWindow()
