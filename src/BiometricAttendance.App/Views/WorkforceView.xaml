@@ -208,17 +208,17 @@
                     <DataGridTemplateColumn Header="Actions" Width="180">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
-                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                <StackPanel Orientation="Horizontal">
                                     <Button Content="View" 
                                             Command="{Binding DataContext.ViewProfileCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}"
                                             CommandParameter="{Binding}"
                                             Visibility="{Binding DataContext.CanViewEmployee, RelativeSource={RelativeSource AncestorType=DataGrid}, Converter={StaticResource BooleanToVisibilityConverter}}"
-                                            Background="Transparent" Foreground="{DynamicResource PrimaryColor}" BorderThickness="0" Cursor="Hand" />
+                                            Background="Transparent" Foreground="{DynamicResource PrimaryColor}" BorderThickness="0" Cursor="Hand" Margin="0,0,8,0" />
                                     <Button Content="Edit" 
                                             Command="{Binding DataContext.EditEmployeeCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}"
                                             CommandParameter="{Binding}"
                                             Visibility="{Binding DataContext.CanEditEmployee, RelativeSource={RelativeSource AncestorType=DataGrid}, Converter={StaticResource BooleanToVisibilityConverter}}"
-                                            Background="Transparent" Foreground="{DynamicResource PrimaryColor}" BorderThickness="0" Cursor="Hand" />
+                                            Background="Transparent" Foreground="{DynamicResource PrimaryColor}" BorderThickness="0" Cursor="Hand" Margin="0,0,8,0" />
                                     <Button Content="Archive" 
                                             Command="{Binding DataContext.ArchiveEmployeeCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}"
                                             CommandParameter="{Binding}"

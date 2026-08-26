@@ -29,8 +29,8 @@
                     <TextBlock Text="{Binding Employee.EmployeeCode, StringFormat='Code: {0}'}" FontSize="14" Foreground="{DynamicResource MutedTextColor}" Margin="0,4,0,0" />
                 </StackPanel>
 
-                <StackPanel Grid.Column="2" Orientation="Horizontal" Spacing="10">
-                    <Button Content="Edit" Command="{Binding EditEmployeeCommand}" Visibility="{Binding CanEditEmployee, Converter={StaticResource BooleanToVisibilityConverter}}" Padding="16,8" Background="Transparent" Foreground="{DynamicResource PrimaryColor}" BorderThickness="1" BorderBrush="{DynamicResource PrimaryColor}" Cursor="Hand" />
+                <StackPanel Grid.Column="2" Orientation="Horizontal">
+                    <Button Content="Edit" Command="{Binding EditEmployeeCommand}" Visibility="{Binding CanEditEmployee, Converter={StaticResource BooleanToVisibilityConverter}}" Padding="16,8" Background="Transparent" Foreground="{DynamicResource PrimaryColor}" BorderThickness="1" BorderBrush="{DynamicResource PrimaryColor}" Cursor="Hand" Margin="0,0,10,0" />
                     <Button Content="Archive" Command="{Binding ArchiveEmployeeCommand}" Visibility="{Binding CanArchiveEmployee, Converter={StaticResource BooleanToVisibilityConverter}}" Padding="16,8" Background="Transparent" Foreground="Red" BorderThickness="1" BorderBrush="Red" Cursor="Hand" />
                 </StackPanel>
             </Grid>

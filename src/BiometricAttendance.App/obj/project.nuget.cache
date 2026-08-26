@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PdMlwpnNkBI=",
+  "dgSpecHash": "I4Q6sli/6DE=",
   "success": true,
   "projectFilePath": "C:\\Users\\PCSMO\\Desktop\\attendance system\\src\\BiometricAttendance.App\\BiometricAttendance.App.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,7 @@
     "C:\\Users\\PCSMO\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
     "C:\\Users\\PCSMO\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0\\microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
     "C:\\Users\\PCSMO\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\PCSMO\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.142\\microsoft.xaml.behaviors.wpf.1.1.142.nupkg.sha512",
     "C:\\Users\\PCSMO\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
     "C:\\Users\\PCSMO\\.nuget\\packages\\serilog.extensions.hosting\\8.0.0\\serilog.extensions.hosting.8.0.0.nupkg.sha512",
     "C:\\Users\\PCSMO\\.nuget\\packages\\serilog.extensions.logging\\8.0.0\\serilog.extensions.logging.8.0.0.nupkg.sha512",
