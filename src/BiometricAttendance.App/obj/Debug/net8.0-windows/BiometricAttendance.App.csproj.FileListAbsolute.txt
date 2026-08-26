@@ -110,3 +110,6 @@ C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.App\obj\Debug\n
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.App\obj\Debug\net8.0-windows\BiometricAttendance.App.pdb
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.App\obj\Debug\net8.0-windows\BiometricAttendance.App.genruntimeconfig.cache
 C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.App\obj\Debug\net8.0-windows\ref\BiometricAttendance.App.dll
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.App\obj\Debug\net8.0-windows\Views\AddEmployeeView.g.cs
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.App\obj\Debug\net8.0-windows\Views\EmployeeProfileView.g.cs
+C:\Users\PCSMO\Desktop\attendance system\src\BiometricAttendance.App\obj\Debug\net8.0-windows\Views\WorkforceView.g.cs
