@@ -11,18 +11,14 @@ public class EmployeeServiceTests
 {
     private readonly Mock<IEmployeeRepository> _repoMock;
     private readonly Mock<IAuditService> _auditMock;
-    private readonly Mock<ICurrentUserService> _currentUserMock;
     private readonly EmployeeService _service;
 
     public EmployeeServiceTests()
     {
         _repoMock = new Mock<IEmployeeRepository>();
         _auditMock = new Mock<IAuditService>();
-        _currentUserMock = new Mock<ICurrentUserService>();
 
-        _currentUserMock.Setup(c => c.UserId).Returns(1);
-
-        _service = new EmployeeService(_repoMock.Object, _auditMock.Object, _currentUserMock.Object);
+        _service = new EmployeeService(_repoMock.Object, _auditMock.Object);
     }
 
     [Fact]
@@ -38,7 +34,9 @@ public class EmployeeServiceTests
             _service.CreateEmployeeAsync(employee));
         
         _repoMock.Verify(r => r.AddAsync(It.IsAny<Employee>(), It.IsAny<CancellationToken>()), Times.Never);
-        _auditMock.Verify(a => a.LogAsync(It.IsAny<string>(), It.IsAny<string>(), It.IsAny<int>(), It.IsAny<CancellationToken>()), Times.Never);
+        _auditMock.Verify(a => a.LogAsync(
+            It.IsAny<string>(), It.IsAny<string>(), It.IsAny<string>(), It.IsAny<string>(),
+            It.IsAny<object>(), It.IsAny<object>(), It.IsAny<CancellationToken>()), Times.Never);
     }
 
     [Fact]
@@ -59,10 +57,8 @@ public class EmployeeServiceTests
         _repoMock.Verify(r => r.SaveChangesAsync(It.IsAny<CancellationToken>()), Times.Once);
         
         _auditMock.Verify(a => a.LogAsync(
-            "Employee creation",
-            It.Is<string>(s => s.Contains("EMP-002")),
-            1,
-            It.IsAny<CancellationToken>()), Times.Once);
+            "Create", "Employee", "Employee", employee.EmployeeCode,
+            null, employee, It.IsAny<CancellationToken>()), Times.Once);
     }
 
     [Fact]
@@ -83,9 +79,7 @@ public class EmployeeServiceTests
         _repoMock.Verify(r => r.SaveChangesAsync(It.IsAny<CancellationToken>()), Times.Once);
         
         _auditMock.Verify(a => a.LogAsync(
-            "Employee archived",
-            It.Is<string>(s => s.Contains("EMP-005")),
-            1,
-            It.IsAny<CancellationToken>()), Times.Once);
+            "Archive", "Employee", "Employee", employee.EmployeeCode,
+            null, It.IsAny<object>(), It.IsAny<CancellationToken>()), Times.Once);
     }
 }

@@ -10,16 +10,12 @@ public sealed class EmployeeService : IEmployeeService
 {
     private readonly IEmployeeRepository _repository;
     private readonly IAuditService _auditService;
-    private readonly ICurrentUserService _currentUser;
-
     public EmployeeService(
         IEmployeeRepository repository,
-        IAuditService auditService,
-        ICurrentUserService currentUser)
+        IAuditService auditService)
     {
         _repository = repository;
         _auditService = auditService;
-        _currentUser = currentUser;
     }
 
     public async Task<Employee> CreateEmployeeAsync(Employee employee, CancellationToken ct = default)
@@ -39,10 +35,12 @@ public sealed class EmployeeService : IEmployeeService
         await _repository.SaveChangesAsync(ct);
 
         await _auditService.LogAsync(
-            "Employee creation",
-            $"Created employee {employee.EmployeeCode} ({employee.FullName})",
-            _currentUser.UserId,
-            ct);
+            action: "Create",
+            module: "Employee",
+            entityName: "Employee",
+            entityId: employee.EmployeeCode,
+            newValue: employee,
+            ct: ct);
 
         scope.Complete();
         return employee;
@@ -91,10 +89,12 @@ public sealed class EmployeeService : IEmployeeService
         await _repository.SaveChangesAsync(ct);
 
         await _auditService.LogAsync(
-            "Employee modification",
-            $"Updated employee {existing.EmployeeCode}",
-            _currentUser.UserId,
-            ct);
+            action: "Update",
+            module: "Employee",
+            entityName: "Employee",
+            entityId: existing.EmployeeCode,
+            newValue: existing,
+            ct: ct);
 
         scope.Complete();
         return existing;
@@ -115,10 +115,12 @@ public sealed class EmployeeService : IEmployeeService
         await _repository.SaveChangesAsync(ct);
 
         await _auditService.LogAsync(
-            "Employee archived",
-            $"Archived employee {existing.EmployeeCode}",
-            _currentUser.UserId,
-            ct);
+            action: "Archive",
+            module: "Employee",
+            entityName: "Employee",
+            entityId: existing.EmployeeCode,
+            newValue: new { EmploymentStatus = EmploymentStatus.Archived },
+            ct: ct);
 
         scope.Complete();
     }
